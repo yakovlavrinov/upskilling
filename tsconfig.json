@@ -25,7 +25,10 @@
         "esModuleInterop": true,
 
         // Разрешает использование синтетических (default) импортов для модулей, не имеющих их по умолчанию
-        "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true,
+        
+        // Для абсолютного импорта
+        "baseUrl": "."
     },
     "ts-node": {
         // Специальные настройки для ts-node, где компиляция будет использовать CommonJS как модульную систему
